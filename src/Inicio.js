@@ -9,7 +9,7 @@ function Inicio() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/Home" element={<Home />} />
+                <Route path="/Home" element={<Home  />} />
                 <Route path="/Frase" element={<App />} />
                 <Route path="/Personajes" element={<App_home />} />
                 <Route path="/Episodios" element={<App_episodios />} />
