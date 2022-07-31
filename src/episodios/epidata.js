@@ -13,7 +13,7 @@ function Epidata({ episode_id, title, air_date, characters }) {
                 <p className='resalt_epi'>characters</p>
                 <div id='actores'>
                     {
-                        characters.map(actores => <p className='resalt_cha'>{actores}</p>)
+                        characters.map(actores => <p className='resalt_cha' key={actores}>{actores}</p>)
                     }
                 </div>
             </div>
