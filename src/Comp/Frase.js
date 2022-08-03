@@ -7,7 +7,7 @@ function Frase({ frase }) {
                 <span>random Quote</span><br/>
                 "{frase.Texto}"<br />
                 <span>-{frase.Autor}</span> <br/>
-                <p className='serie'>{frase.Serie}</p>
+                <span className='serie'>{frase.Serie}</span>
             </p>
         </div>
     )
